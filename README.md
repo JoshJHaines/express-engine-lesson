@@ -8,11 +8,12 @@
 * [Nodemon](https://www.npmjs.com/package/nodemon)
 * [GitHub](https://www.github.com)
 * [Express](https://expressjs.com/)
-* Express Generator
+* [Express_Generator](https://www.npmjs.com/package/express-generator/)
 * [Morgan](https://www.npmjs.com/package/morgan)
 
 
 ## Overview
+Express generator will pre-make the server, folders and routes structure for you.
 
 ### In Terminal
 First you will need to initialize/create the application. Create the directory where you would like this to live. Once you are in your new directory: 
@@ -40,4 +41,8 @@ First you will need to initialize/create the application. Create the directory w
 - 'git push' will throw an error
 - 'git push origin master' will push to your repo only once. You need to set the upstream to continually push.
 5. git push --set-upstream origin master
+
+## Edit EJS files
+Edit your ejs files to display 'HTML' dynamically
+- [EJS-syntax](https://ejs.co/)
 
