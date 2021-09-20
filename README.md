@@ -45,4 +45,5 @@ First you will need to initialize/create the application. Create the directory w
 ## Edit EJS files
 Edit your ejs files to display 'HTML' dynamically
 - [EJS-syntax](https://ejs.co/)
-
+- When creating new routes, be sure to have a new route file and it exists in app.js 
+- When creating a new route path, create a new Routes .js file and Views.ejs file accordingly for cleanliness.
