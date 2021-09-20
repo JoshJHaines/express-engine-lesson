@@ -17,7 +17,12 @@
 ### In Terminal
 First you will need to initialize/create the application. Create the directory where you would like this to live. Once you are in your new directory: 
 
-1. Run  ‘npm init’
+1. install express generator 'npm i express-generator -g'  
+   1. this sets it globally, only need to run once on your computer
+2. Start your project 'express "project-name-here" --view=ejs'
+3. Run  ‘npm init’
+4. Create a .gitignore file. Add /node_modules
+5. Connect to or init git repo
 
 
 ## Create Git Repo
@@ -34,5 +39,5 @@ First you will need to initialize/create the application. Create the directory w
 
 - 'git push' will throw an error
 - 'git push origin master' will push to your repo only once. You need to set the upstream to continually push.
-1. git push --set-upstream origin master
+5. git push --set-upstream origin master
 
